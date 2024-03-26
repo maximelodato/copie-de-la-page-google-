@@ -1,0 +1,130 @@
+.material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    padding: 9px;
+    border-radius: 18px;
+    font-size: 24px;  /* Preferred icon size */
+    line-height: 1;
+    color: rgb(77, 77, 77);
+  }
+
+.barnav{
+    background-color: rgb(255, 254, 254);
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+a:link{
+    text-decoration: none;
+    color: grey;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: rgb(77, 77, 77);;
+}
+
+a:visited{
+text-decoration: none;
+color: rgba(128, 128, 128, 0.582);
+}
+
+a:active{
+text-decoration: underline;
+color: grey;
+}
+
+.menu{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 200px;
+    justify-content: space-around;
+}
+
+.lge{
+    background-color: rgb(255, 255, 255);
+    height: 20vh;
+    display:flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+
+#logogoogle{
+    max-width: 253px;
+
+}
+
+.spaceb{
+    display: flex;
+    align-items: center;
+    border: 1px solid #000000;
+    border-radius: 24px;
+    margin: auto;
+    width: 100%;
+    max-width: 584px;    
+    height: 100%;
+}
+
+.searchbar{
+    display: flex;
+    width: 100%;
+    border-style: none;
+    background-color: none;
+    justify-content: center;
+    border-radius: 24px;
+    min-width: none;
+    height: 100%;
+    
+}
+
+.recherjaidelachance{    
+    background-color: #ffffff;
+    border-radius: 4px;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.trad{
+    display: block;
+    text-align: center;
+    
+    
+
+}
+
+.bel{
+    display: flex;
+    align-items: stretch ;
+    justify-content: bottom;
+    margin: auto;
+    width: 100%;
+    max-width: 584px;    
+    height: 100%;
+}
+
+.eco{
+    
+    white-space: nowrap;
+    vertical-align: top;
+}
+
+footer{
+    background-color: #ffffff;
+    font-weight: bold;
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 1px;
+    }
